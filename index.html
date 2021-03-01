@@ -983,13 +983,48 @@
             </div>
             <div class="contener d-flex justify-content-center bg-dark">
                 <div class="card-group bg-dark">
-                    <div style="width: 100%"> 
-                        <iframe width="600" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    <div> 
+                        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3">
+
+                            </div>
+                            <script>
+                            (function () {
+                                var setting = {
+                                    "height":400,
+                                    "width":400,
+                                    "zoom":13,
+                                    "queryString":"Ézanville, France",
+                                    "place_id":"ChIJy9iwgQ1C5kcRY95SxSQiJK0",
+                                    "satellite":false,
+                                    "centerCoord":[49.038220651267466,2.3616379945015886],
+                                    "cid":"0xad242224c552de63",
+                                    "lang":"fr",
+                                    "cityUrl":"/france/paris",
+                                    "cityAnchorText":"Carte de Paris, Ile de France, France",
+                                    "id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                                    "embed_id":"412441"
+                                };
+                                var d = document;
+                                var s = d.createElement('script');
+                                s.src = 'https://1map.com/js/script-for-user.js?embed_id=412441';
+                                s.async = true;
+                                s.onload = function (e) {
+                                    window.OneMap.initMap(setting)
+                                };
+                                var to = d.getElementsByTagName('script')[0];
+                                to.parentNode.insertBefore(s, to);
+                            })();
+                            </script>
+                            <a href="https://1map.com/fr/map-embed"  align="center">1 Map</a>
+                        </div>
+                        <!-- <iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                             src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=ezanville+(portfolio)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                        </iframe>
+                        </iframe> -->
                     </div>
                 </div>
             </div>
+            <br><br>
             <div class="d-flex justify-content-center">
                 <div class="ml-5">
                     <a class="btn btn-outline-light btn-social mx-1">
