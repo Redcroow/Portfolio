@@ -1,0 +1,148 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    padding-bottom: 10px;
+}
+
+.about .content ul i {
+    font-size: 20px;
+    padding-right: 2px;
+    color: #149ddd;
+}
+
+.about .content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Create a Parallax Effect */
+.backimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* First image (Logo. Full height) */
+.backimg-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Background.jpg");
+    background-position: center top;
+    background-size:cover;
+    text-align: center;
+}
+
+.backimg-2 {
+    height: 100%;
+    width: 100%;
+    background-position: center top;
+    background-size:cover;
+    text-align: center;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+    .backimg-1 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+}
+
+.icofont-rounded-right-down:before{content:"\ea9e"}
+.icofont-rounded-right-up:before{content:"\ea9f"}
+.icofont-rounded-right:before{content:"\eaa0"}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .section-header {
+    margin-bottom: 40px;
+  }
+  
+  .testimonials .testimonial-item {
+    text-align: center;
+  }
+  
+  .testimonials .testimonial-item .testimonial-img {
+    width: 120px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: 0 auto;
+  }
+  
+  .testimonials .testimonial-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+  }
+  
+  .testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0 0 15px 0;
+  }
+  
+  .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+    color: #90c8fc;
+    font-size: 26px;
+  }
+  
+  .testimonials .testimonial-item .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+  }
+  
+  .testimonials .testimonial-item .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .testimonials .testimonial-item p {
+    font-style: italic;
+    margin: 0 auto 15px auto;
+  }
+  
+  .testimonials .owl-nav, .testimonials .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .testimonials .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd !important;
+  }
+  
+  .testimonials .owl-dot.active {
+    background-color: #0563bb !important;
+  }
+  
+  @media (min-width: 992px) {
+    .testimonials .testimonial-item p {
+      width: 80%;
+    }
+  }
+  
